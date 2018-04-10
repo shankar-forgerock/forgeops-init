@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "6.0.0-SNAPSHOT",
+    "entityType" : "AuthTree",
+    "entityId" : "Facebook-ProvisionIDMAccount",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Facebook-ProvisionIDMAccount",
+    "entryNodeId" : "e10c46ea-ec34-4369-8fbe-edc16676a3a8",
+    "nodes" : {
+      "e10c46ea-ec34-4369-8fbe-edc16676a3a8" : {
+        "nodeType" : "SocialFacebookNode",
+        "displayName" : "Facebook Social Authentication",
+        "connections" : {
+          "NO_ACCOUNT" : "9696a7fb-5722-4085-9543-cd4254f4d2de",
+          "ACCOUNT_EXISTS" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "9696a7fb-5722-4085-9543-cd4254f4d2de" : {
+        "nodeType" : "ProvisionIdmAccountNode",
+        "displayName" : "Provision IDM Account",
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

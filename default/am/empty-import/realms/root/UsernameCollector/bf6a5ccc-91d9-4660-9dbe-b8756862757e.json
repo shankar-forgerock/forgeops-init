@@ -1,0 +1,17 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "6.0.0-SNAPSHOT",
+    "entityType" : "UsernameCollector",
+    "entityId" : "bf6a5ccc-91d9-4660-9dbe-b8756862757e",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "bf6a5ccc-91d9-4660-9dbe-b8756862757e",
+    "_type" : {
+      "_id" : "UsernameCollectorNode",
+      "name" : "Username Collector",
+      "collection" : true
+    }
+  }
+}
